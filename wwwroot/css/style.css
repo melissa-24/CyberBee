@@ -20,7 +20,7 @@ img {
 }
 .altbox {
   border: 2px groove #96858f;
-  background-color: #ffbe2e;
+  background-color: #000;
   box-shadow: 0.1em 0.25em 0.75em #96858f;
 }
 .button {
@@ -79,4 +79,51 @@ body main {
   justify-content: center;
   align-items: center;
   width: 85%;
+}
+body main main {
+  height: 50%;
+  width: 100%;
+  overflow-y: scroll;
+  border: 2px groove #96858f;
+  background-color: #000;
+  box-shadow: 0.1em 0.25em 0.75em #96858f;
+}
+body main main #container #input {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body main main #container #input p {
+  color: #ffbe2e;
+  display: inline-block;
+  font-family: 'Source Code Pro', monospace;
+  padding-right: 0.4em;
+  margin: 0;
+}
+body main main #container #input input {
+  width: 85%;
+  display: inline-block;
+}
+body main main #container #input input[type="command"] {
+  background-color: #000;
+  border: 0;
+  color: #ffbe2e;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  outline: 0;
+}
+body main main #container #logger #wrapper {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 100%;
+}
+body main main #container #logger #wrapper .log {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body main main #container #logger #wrapper .log p {
+  color: #ffbe2e;
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
 }
