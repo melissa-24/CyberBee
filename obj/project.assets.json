@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\honey\\.nuget\\packages\\": {}
+    "/Users/irish/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\honey\\Documents\\coding\\business\\beeDev\\CyberBee\\CyberBee.csproj",
+      "projectUniqueName": "/Users/irish/coding/business/_services/CyberBee/CyberBee.csproj",
       "projectName": "CyberBee",
-      "projectPath": "C:\\Users\\honey\\Documents\\coding\\business\\beeDev\\CyberBee\\CyberBee.csproj",
-      "packagesPath": "C:\\Users\\honey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\honey\\Documents\\coding\\business\\beeDev\\CyberBee\\obj\\",
+      "projectPath": "/Users/irish/coding/business/_services/CyberBee/CyberBee.csproj",
+      "packagesPath": "/Users/irish/.nuget/packages/",
+      "outputPath": "/Users/irish/coding/business/_services/CyberBee/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\honey\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/irish/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -62,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
       }
     }
   }

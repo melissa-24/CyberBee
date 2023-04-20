@@ -1,6 +1,16 @@
-log("Welcome to Cyber Bee!");
+log("Welcome to CyberBee!");
+// log(`
+//  _____       _              ______           _ 
+// /  __ \     | |             | ___ \         | |
+// | /  \/_   _| |__   ___ _ __| |_/ / ___  ___| |
+// | |   | | | | '_ \ / _ \ '__| ___ \/ _ \/ _ \ |
+// | \__/\ |_| | |_) |  __/ |  | |_/ /  __/  __/_|
+//  \____/\__, |_.__/ \___|_|  \____/ \___|\___(_)
+//         __/ |                                  
+//        |___/                                           
+
+// `)
 update_user_title("Guest User");
-notGuest = false
 commandList = {
     "- LIST": "Simplified Registry Command List",
     "- HELP": "Used to bring  up the list of commands",
@@ -21,6 +31,5 @@ register_cmd("login", function(cmd) {
     for (var i = 0; i < parameters.length; i++) {
         block_log("Hello " + parameters[i]);
         update_user_title(parameters)
-        notGuest=true
     }
 });
